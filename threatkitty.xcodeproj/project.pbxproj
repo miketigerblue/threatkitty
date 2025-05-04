@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		27BF4D1E2DC7772B00FF8C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BF4D082DC7772900FF8C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BF4D0F2DC7772900FF8C11;
+			remoteInfo = threatkitty;
+		};
+		27BF4D282DC7772B00FF8C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BF4D082DC7772900FF8C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BF4D0F2DC7772900FF8C11;
+			remoteInfo = threatkitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27BF4D102DC7772900FF8C11 /* threatkitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threatkitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF4D1D2DC7772B00FF8C11 /* threatkittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threatkittyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF4D272DC7772B00FF8C11 /* threatkittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threatkittyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27BF4D122DC7772900FF8C11 /* threatkitty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = threatkitty;
+			sourceTree = "<group>";
+		};
+		27BF4D202DC7772B00FF8C11 /* threatkittyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = threatkittyTests;
+			sourceTree = "<group>";
+		};
+		27BF4D2A2DC7772B00FF8C11 /* threatkittyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = threatkittyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BF4D0D2DC7772900FF8C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF4D1A2DC7772B00FF8C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF4D242DC7772B00FF8C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BF4D072DC7772900FF8C11 = {
+			isa = PBXGroup;
+			children = (
+				27BF4D122DC7772900FF8C11 /* threatkitty */,
+				27BF4D202DC7772B00FF8C11 /* threatkittyTests */,
+				27BF4D2A2DC7772B00FF8C11 /* threatkittyUITests */,
+				27BF4D112DC7772900FF8C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BF4D112DC7772900FF8C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BF4D102DC7772900FF8C11 /* threatkitty.app */,
+				27BF4D1D2DC7772B00FF8C11 /* threatkittyTests.xctest */,
+				27BF4D272DC7772B00FF8C11 /* threatkittyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BF4D0F2DC7772900FF8C11 /* threatkitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF4D312DC7772B00FF8C11 /* Build configuration list for PBXNativeTarget "threatkitty" */;
+			buildPhases = (
+				27BF4D0C2DC7772900FF8C11 /* Sources */,
+				27BF4D0D2DC7772900FF8C11 /* Frameworks */,
+				27BF4D0E2DC7772900FF8C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27BF4D122DC7772900FF8C11 /* threatkitty */,
+			);
+			name = threatkitty;
+			packageProductDependencies = (
+			);
+			productName = threatkitty;
+			productReference = 27BF4D102DC7772900FF8C11 /* threatkitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27BF4D1C2DC7772B00FF8C11 /* threatkittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF4D342DC7772B00FF8C11 /* Build configuration list for PBXNativeTarget "threatkittyTests" */;
+			buildPhases = (
+				27BF4D192DC7772B00FF8C11 /* Sources */,
+				27BF4D1A2DC7772B00FF8C11 /* Frameworks */,
+				27BF4D1B2DC7772B00FF8C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BF4D1F2DC7772B00FF8C11 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				27BF4D202DC7772B00FF8C11 /* threatkittyTests */,
+			);
+			name = threatkittyTests;
+			packageProductDependencies = (
+			);
+			productName = threatkittyTests;
+			productReference = 27BF4D1D2DC7772B00FF8C11 /* threatkittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27BF4D262DC7772B00FF8C11 /* threatkittyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF4D372DC7772B00FF8C11 /* Build configuration list for PBXNativeTarget "threatkittyUITests" */;
+			buildPhases = (
+				27BF4D232DC7772B00FF8C11 /* Sources */,
+				27BF4D242DC7772B00FF8C11 /* Frameworks */,
+				27BF4D252DC7772B00FF8C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BF4D292DC7772B00FF8C11 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				27BF4D2A2DC7772B00FF8C11 /* threatkittyUITests */,
+			);
+			name = threatkittyUITests;
+			packageProductDependencies = (
+			);
+			productName = threatkittyUITests;
+			productReference = 27BF4D272DC7772B00FF8C11 /* threatkittyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BF4D082DC7772900FF8C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					27BF4D0F2DC7772900FF8C11 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					27BF4D1C2DC7772B00FF8C11 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 27BF4D0F2DC7772900FF8C11;
+					};
+					27BF4D262DC7772B00FF8C11 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 27BF4D0F2DC7772900FF8C11;
+					};
+				};
+			};
+			buildConfigurationList = 27BF4D0B2DC7772900FF8C11 /* Build configuration list for PBXProject "threatkitty" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BF4D072DC7772900FF8C11;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27BF4D112DC7772900FF8C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BF4D0F2DC7772900FF8C11 /* threatkitty */,
+				27BF4D1C2DC7772B00FF8C11 /* threatkittyTests */,
+				27BF4D262DC7772B00FF8C11 /* threatkittyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BF4D0E2DC7772900FF8C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF4D1B2DC7772B00FF8C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF4D252DC7772B00FF8C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BF4D0C2DC7772900FF8C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF4D192DC7772B00FF8C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF4D232DC7772B00FF8C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BF4D1F2DC7772B00FF8C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BF4D0F2DC7772900FF8C11 /* threatkitty */;
+			targetProxy = 27BF4D1E2DC7772B00FF8C11 /* PBXContainerItemProxy */;
+		};
+		27BF4D292DC7772B00FF8C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BF4D0F2DC7772900FF8C11 /* threatkitty */;
+			targetProxy = 27BF4D282DC7772B00FF8C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27BF4D2F2DC7772B00FF8C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27BF4D302DC7772B00FF8C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BF4D322DC7772B00FF8C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tigerblue.threatkitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27BF4D332DC7772B00FF8C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tigerblue.threatkitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27BF4D352DC7772B00FF8C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tigerblue.threatkittyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/threatkitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/threatkitty";
+			};
+			name = Debug;
+		};
+		27BF4D362DC7772B00FF8C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tigerblue.threatkittyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/threatkitty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/threatkitty";
+			};
+			name = Release;
+		};
+		27BF4D382DC7772B00FF8C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tigerblue.threatkittyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = threatkitty;
+			};
+			name = Debug;
+		};
+		27BF4D392DC7772B00FF8C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73XPTTU4U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.tigerblue.threatkittyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = threatkitty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BF4D0B2DC7772900FF8C11 /* Build configuration list for PBXProject "threatkitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF4D2F2DC7772B00FF8C11 /* Debug */,
+				27BF4D302DC7772B00FF8C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF4D312DC7772B00FF8C11 /* Build configuration list for PBXNativeTarget "threatkitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF4D322DC7772B00FF8C11 /* Debug */,
+				27BF4D332DC7772B00FF8C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF4D342DC7772B00FF8C11 /* Build configuration list for PBXNativeTarget "threatkittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF4D352DC7772B00FF8C11 /* Debug */,
+				27BF4D362DC7772B00FF8C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF4D372DC7772B00FF8C11 /* Build configuration list for PBXNativeTarget "threatkittyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF4D382DC7772B00FF8C11 /* Debug */,
+				27BF4D392DC7772B00FF8C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BF4D082DC7772900FF8C11 /* Project object */;
+}
