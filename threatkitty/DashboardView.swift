@@ -11,6 +11,9 @@ import Charts
 struct DashboardView: View {
     @StateObject private var vm = DashboardViewModel()
     @State private var selectedSeverity = "All"
+    @State private var focusedSeverity: String?
+    @State private var showSeveritySheet = false
+    @State private var selectedSeverityKey = ""
 
     var body: some View {
         NavigationStack {
@@ -41,7 +44,13 @@ struct DashboardView: View {
                     // ───────────────────────
                     // Charts
                     // ───────────────────────
-                    SeverityChartView(data: vm.severityDist)
+                    SeverityChartView(
+                                            data: vm.severityDist,
+                                            onSelectSeverity: { sev in
+                                                selectedSeverityKey = sev
+                                                showSeveritySheet = true
+                                            }
+                                        )
                     TopActorsChartView(data: Array(vm.topActors.prefix(8)))
                     DailyTimelineChartView(data: vm.timeline)
                     TopCVEsView(data: Array(vm.topCVEs.prefix(6)))
@@ -72,6 +81,14 @@ struct DashboardView: View {
             .navigationDestination(for: AnalysisEntry.self) { entry in
                 ThreatDetailView(entry: entry)
             }
+            .sheet(isPresented: $showSeveritySheet) {
+                            SeverityDetailView(
+                                severity: selectedSeverityKey,
+                                entries: vm.filteredEntries.filter {
+                                    $0.severityLevel.uppercased() == selectedSeverityKey
+                                }
+                            )
+                        }
         }
     }
 }
