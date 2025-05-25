@@ -4,9 +4,9 @@
 //
 //  Created by Mike Harris on 04/05/2025.
 //
+//  A ViewModifier for device orientation detection.
+//
 
-
-// RotationDetector.swift
 import SwiftUI
 
 /// A ViewModifier that listens for device‐orientation changes

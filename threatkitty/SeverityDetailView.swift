@@ -2,7 +2,7 @@
 //  SeverityDetailView.swift
 //  threatkitty
 //
-//  Created by Mike Harris on 05/05/2025.
+//  Full-screen list for a single severity level
 //
 
 import SwiftUI
@@ -34,3 +34,4 @@ struct SeverityDetailView: View {
         .presentationCornerRadius(16)
     }
 }
+

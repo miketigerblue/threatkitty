@@ -36,4 +36,3 @@ public struct CVECount: Identifiable {
     public let cve: String
     public let count: Int
 }
-

@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// Table view for displaying grouped threats by day with optional severity filtering
 struct ThreatListView: View {
     let entries: [AnalysisEntry]
     let severityFilter: String

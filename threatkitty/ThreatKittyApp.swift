@@ -2,11 +2,9 @@
 //  ThreatKittyApp.swift
 //  threatkitty
 //
-//  Created by Mike Harris on 04/05/2025.
+//  App entry point
 //
 
-
-// ThreatKittyApp.swift
 import SwiftUI
 
 @main

@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// A visual wrapper for charts with a gradient headline and neon border
 struct ChartSection<Content: View>: View {
     let title: String
     let content: () -> Content
@@ -29,15 +30,7 @@ struct ChartSection<Content: View>: View {
                 )
 
             content()
-                .frame(height: 180)
-                .background(RoundedRectangle(cornerRadius: 12)
-                                .stroke(LinearGradient(
-                                    gradient: Gradient(colors: [.pink, .purple]),
-                                    startPoint: .topLeading,
-                                    endPoint: .bottomTrailing
-                                ), lineWidth: 2)
-                                .background(Color.black)
-                )
         }
+        .padding(.vertical, 6)
     }
 }

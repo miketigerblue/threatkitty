@@ -4,6 +4,8 @@
 //
 //  Created by Mike Harris on 04/05/2025.
 //
+//  Bar chart for threats by severity.
+//
 
 import SwiftUI
 import Charts
@@ -36,15 +38,10 @@ struct SeverityChartView: View {
                 .chartXAxis { AxisMarks() }
                 .frame(height: 180)
                 .padding()
-
-                // ——— Updated overlay for correct tap mapping ———
                 .chartOverlay { proxy in
                     GeometryReader { geo in
-                        // only proceed if the proxy gives us a plotFrame anchor
                         if let frameAnchor = proxy.plotFrame {
-                            // resolve the anchor into a real CGRect
                             let plotArea: CGRect = geo[frameAnchor]
-                            
                             Rectangle()
                                 .fill(Color.clear)
                                 .contentShape(Rectangle())
@@ -54,7 +51,6 @@ struct SeverityChartView: View {
                                             let loc = value.location
                                             let xInPlot = loc.x - plotArea.minX
                                             guard xInPlot >= 0, xInPlot <= plotArea.width else { return }
-                                            
                                             if let sev: String = proxy.value(atX: xInPlot, as: String.self) {
                                                 onSelectSeverity(sev.uppercased())
                                             }
@@ -77,4 +73,3 @@ struct SeverityChartView: View {
         }
     }
 }
-

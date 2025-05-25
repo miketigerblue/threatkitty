@@ -2,9 +2,8 @@
 //  Landscape3DView.swift
 //  threatkitty
 //
-//  Created by Mike Harris on 04/05/2025.
-//
 //  SceneKit-based 3D world stub for landscape mode
+//
 
 import SwiftUI
 import SceneKit
